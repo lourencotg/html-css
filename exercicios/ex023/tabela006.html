@@ -3,59 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabelas Responsivas</title>
+    <title>Exercício de Tabelas</title>
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
         }
 
         table {
+            width: 500px;
             border-collapse: collapse;
         }
 
         caption {
-            font-size: 1.2em;
+            font-size: 1.3em;
             font-weight: bolder;
-            padding: 20px;
+            padding: 8px;
         }
 
         th,td {
             border: 1px solid gray;
-            padding: 10px;
+            padding: 8px;
         }
 
-        tr:nth-child(even){
-            background-color: rgb(228,228,228);
+        div#container {
+            overflow-x: auto;
         }
+
     </style>
 </head>
 <body>
-    <h1>Tabelas em telas pequenas</h1> 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero neque maxime pariatur, nam magni aperiam odit expedita architecto, excepturi ducimus harum veniam quisquam tempore tenetur consequuntur sit earum delectus explicabo?</p>
+    <h1>Exercício de Tabela</h1>
     
-    <table>
-        <caption>Tabelas responsivas</caption>
-        <thead>
+    <div id="container">
+        <table>
             <tr>
-                <th>Produto</th>
-                <th>Jan</th>
-                <th>Fev</th>
-                <th>Mar</th>
-                <th>Abr</th>
-                <th>Mai</th>
-                <th>Jun</th>
-                <th>Jul</th>
-                <th>Ago</th>
-                <th>Set</th>
-                <th>Out</th>
-                <th>Nov</th>
-                <th>Dez</th>
+                <td>Ana Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Jornalista</td>
             </tr>
-        </thead>
-        <tbody>
-            
-        </tbody>
-
-    </table>
+            <tr>
+                <td>Cláudio</td>
+                <td>M</td>
+                <td>28</td>
+                <td>Programador</td>
+            </tr>
+            <tr>
+                <td>Gustavo</td>
+                <td>M</td>
+                <td>42</td>
+                <td>Professor</td>
+            </tr>
+            <tr>
+                <td>Hélio</td>
+                <td>M</td>
+                <td>19</td>
+                <td>Vendedor</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>F</td>
+                <td>39</td>
+                <td>Médica</td>
+            </tr>
+            <tr>
+                <td>Otávio</td>
+                <td>M</td>
+                <td>22</td>
+                <td>Nutricionista</td>
+            </tr>
+        </table>
+    </div>
 </body>
 </html>
